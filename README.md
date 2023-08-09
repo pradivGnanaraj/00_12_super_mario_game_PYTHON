@@ -1,33 +1,58 @@
 # Super Mario Implementation in Python
 
-This is inspired by Meth-Meth-Method's [super mario game](https://github.com/meth-meth-method/super-mario/)
+This project is inspired by Meth-Meth-Method's [super mario game](https://github.com/meth-meth-method/super-mario/).
 
 ## Running
 
-* $ pip install -r requirements.txt
-* $ python main.py
+To run the game, follow these steps:
 
-## Standalone windows build
+1. Install the required dependencies by running the command:
 
-* $ pip install py2exe
-* $ python compile.py py2exe
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Start the game by executing the `main.py` script:
+
+   ```bash
+   python main.py
+   ```
+
+## Standalone Windows Build
+
+If you'd like to create a standalone Windows build of the game, use the following steps:
+
+1. Install `py2exe`:
+
+   ```bash
+   pip install py2exe
+   ```
+
+2. Run the `compile.py` script with the `py2exe` argument:
+
+   ```bash
+   python compile.py py2exe
+   ```
 
 ## Controls
 
-* Left: Move left  
-* Right: Move right  
-* Space: Jump  
-* Shift: Boost   
-* Left/Right Mouseclick: secret   
+- **Left:** Move left
+- **Right:** Move right
+- **Space:** Jump
+- **Shift:** Boost
+- **Left/Right Mouseclick:** Secret
 
-## Current state:
-![Alt text](img/pics.png "current state")
+## Current State
 
-## Dependencies	
-* pygame	
-* scipy	
+![Current State](img/pics.png "Current State")
+
+## Dependencies
+
+- [pygame](https://www.pygame.org/)
+- [scipy](https://www.scipy.org/)
 
 ## Contribution
 
-If you have any Improvements/Ideas/Refactors feel free to contact me or make a Pull Request.
-The code needs still alot of refactoring as it is right now, so I appreciate any kind of Contribution.
+If you have any improvements, ideas, or refactors, please feel free to contact me or submit a pull request. The code is in need of refactoring, so any contribution is appreciated.
+
+---
